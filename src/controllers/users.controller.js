@@ -67,7 +67,7 @@ userCtrl.authenticate = async (req, res, next) => {
 	  if (err) { throw (err); }
 	  if(isMatch){
 	    const token = jwt.sign({data: user}, SECRET_OR_KEY, {
-	    	expiresIn: 60 * 10//604800 // 1 week
+	    	expiresIn: 60 * 20//604800 // 1 week
 			});
 
 	    res.json({

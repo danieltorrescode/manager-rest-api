@@ -21,6 +21,7 @@
     "pug": "^2.0.3"
   },
   "devDependencies": {
+		"event-stream": "^3.3.4",
     "nodemon": "^1.18.4"
   }
 }
